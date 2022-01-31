@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% set title = 'Développeur PHP/Python dans le Vaucluse' if this.title == 'Créatux' else this.title ~ ' - Créatux' %}
+    <title>{{ title }}</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="{{'/static/css/main.css'|asseturl }}" type="text/css" media="screen">
+    <link rel="stylesheet" href="{{'/static/css/syntax.css'|asseturl }}" type="text/css" media="screen">
+  </head>
+  
+  <body>
+    <div class="masthead">
+      <h1 class="title"><a href="/">Créatux</a></h1>
+      <nav>
+        <ul>
+          <li><a href="/">A propos</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="https://github.com/feelsonix">Projets</a></li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      {% block body %}{% endblock %}
+    </main>
+  </body>
+</html>

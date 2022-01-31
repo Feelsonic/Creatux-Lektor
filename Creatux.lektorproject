@@ -1,0 +1,10 @@
+[project]
+name = Creatux
+url = https://www.creatux.fr/
+url_style = absolute
+locale = fr_FR
+[servers.production]
+target = ftps://creatuxf:Amelia84270?@213.246.62.207/creatux.fr
+
+[packages]
+lektor-markdown-highlighter = 0.3.1
