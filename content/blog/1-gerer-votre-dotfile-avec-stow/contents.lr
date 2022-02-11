@@ -1,0 +1,21 @@
+title: Gérer votre dotfile avec Stow
+---
+pub_date: 2022-01-25
+---
+author: Mayet Thomas
+---
+body:
+
+Dans cet article nous allons parler de stow et de commment gérer votre dotfile grâce à celui ci.  
+
+Les dotfiles sont des fichiers textes qui vous servent à configurer des applications. Il peut très facilement grâce à son fonctionnement être déployé sur plusieurs marchines.  
+Il faut pas se cacher, la gestion des dotfiles c'est un peu chiant et rebarbatif. Il existe des exemple sur [github](https://dotfiles.github.io/ "Lien sur Github des dotfiles"), mais j'ai choisi de vous montrer ma façon de faire.  
+
+
+
+
+
+---
+twitter_handle: 
+---
+_slug: 1-gerer-votre-dotfile-avec-stow
